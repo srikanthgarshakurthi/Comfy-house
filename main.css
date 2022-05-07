@@ -189,11 +189,12 @@ top: 0;
 right: 0;
 width: 100%;
 height: 100%;
-background: transparent;
 transition: var(--mainTransition);
+/*background: transparent;*/
+
 background: rgb(240, 157, 81, 0.5);
 z-index: 2;
-visibility: hidden;   /*improtant*/ 
+visibility:hidden;  /*improtant*/ 
 }
 /**************  End of cart **************/
 .cart {
@@ -203,14 +204,14 @@ visibility: hidden;   /*improtant*/
     width: 100%;
     height: 100%;
     overflow: scroll;
-    /*background: var(--mainwhite);*/
+    background: var(--mainwhite);/**/
     z-index: 3;
     background: rgb(231, 226, 221);
     padding: 1.5rem;
     transition: var(--mainTransition);
-    transform: translateX(100%);*/ 
+  transform: translateX(100%) */
 }
-.showcart {
+.showCart {
     transform: translateX(0);
 }
 .transparentBcg{
@@ -223,7 +224,7 @@ visibility: hidden;   /*improtant*/
     }
 }
 .close-cart {
-    font-size: 1.7rem;
+    font-size: 2.4rem;
     cursor: pointer;
 }
 .cart h2 {
