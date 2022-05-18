@@ -53,7 +53,7 @@ class UI {
                     ${product.image} alt="product" class="product-img"/>
                     <button class="bag-btn" data-id="${product.id}">
                         <i class="fas fa-shopping-cart"></i>
-                        add to bag  /*cart*/
+                        add to bag 
                     </button>
                 </div>
                 <h3>${product.title}</h3>
